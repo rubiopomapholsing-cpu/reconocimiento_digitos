@@ -1,0 +1,28 @@
+{
+    "seed": 42,
+    "selected_model": "API Funcional",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "dataset": "MNIST reducido a 8x8",
+    "max_epochs": 100,
+    "early_stopping_patience": 10,
+    "models": {
+        "Sequential": {
+            "val_accuracy": 0.9726666666666667,
+            "val_f1_macro": 0.9724986275368291,
+            "test_accuracy": 0.9749,
+            "test_f1_macro": 0.9747499958825733,
+            "parameters": 17226,
+            "epochs": 50
+        },
+        "API Funcional": {
+            "val_accuracy": 0.9738333333333333,
+            "val_f1_macro": 0.9736365790914743,
+            "test_accuracy": 0.9742,
+            "test_f1_macro": 0.9740407790348271,
+            "parameters": 17226,
+            "epochs": 61
+        }
+    }
+}

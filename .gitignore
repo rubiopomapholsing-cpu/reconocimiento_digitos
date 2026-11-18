@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Local prediction history and benchmark split from the old dataset
+resultados.csv
+models/splits.json
+
+# Local environments and editors
+.venv/
+venv/
+.vscode/
